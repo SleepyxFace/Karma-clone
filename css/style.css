@@ -27,12 +27,11 @@ body {
 	min-width: 37.5rem;
 }
 .top-navigation > .content {
-	width: 970px;
+	width: 100%;
 	height: 4.375rem;
 	margin: 0 auto;
 	min-width: 37.5rem;
 	padding: 0 0.938rem;
-	margin-left: 372px;
 }
 .top-navigation .logo {
 	height: 4.375rem;
@@ -49,7 +48,6 @@ body {
 	color: #838994;
 	font-size: 1.04rem;
 	margin-top: 1.7rem;
-	margin-right: -175px;
 }
 .top-navigation .links li:hover {
 	cursor: pointer;
