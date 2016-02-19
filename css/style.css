@@ -16,6 +16,7 @@ body {
 	border-bottom: 1px solid #DDD;
 	z-index: 9999;
 	margin-top:-8px;
+	text-align: center;
 }
 .top-navigation .links li.active {
 	color: #4c5058;
@@ -32,6 +33,7 @@ body {
 	margin: 0 auto;
 	min-width: 37.5rem;
 	padding: 0 0.938rem;
+	text-align: ;
 }
 .top-navigation .logo {
 	height: 4.375rem;
@@ -48,6 +50,7 @@ body {
 	color: #838994;
 	font-size: 1.04rem;
 	margin-top: 1.7rem;
+	text-align: center;
 }
 .top-navigation .links li:hover {
 	cursor: pointer;
@@ -104,24 +107,71 @@ button {
 .introduction .buttons button:hover {
 	cursor:pointer;
 }
+.cases {
+	background-color: #fff;
+	overflow: hidden;
+	padding-bottom: 5rem;
+}
 .cases .content {
 	margin-top: 7.875rem;
 	padding: none;
-	color:#1d1e121;
+	color:#1d1e21;
 	text-align:center;
 	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
+}
+.cases .devices h3 {
+	font-weight: 400;
+	font-size: 1.563rem;
+	margin: 2.5rem 0px 1.875rem;
+	color: black;
 }
 .cases h2 {
 	font-size: 2.75rem;
 	margin: 1.625rem 0 3.125rem;
 	font-weight: 300;
 }
-.cases .devices {
-	width: 33.3333333%;
+.social {
+	background-color: #fff;
+	overflow: auto;
+	padding-bottom: 9.375rem;
+	text-align: center;
+}
+.social hr {
+	border: 0;
+	border-top: 1px solid #eaebec;
+	margin: 1.313rem 0;
+}
+.social .icons > li {
+	border-radius: 1.25rem;
+	border: 1px solid #eaebec;
+	height: 2.5rem;
+	width: 2.5rem;
+	text-align: center;
+	margin: 1.25rem 5px;
 	display: inline-block;
-	/* styles to assist with debugging */
-	border: 1px solid black;
-	box-sizing: border-box;
-	height: 4em;
+	padding: 0.625rem 0;
+}
+.social .twitter {
+	color: #55acee;
+}
+.facebook {
+	color: #4c66a4;
+}
+.instagram {
+	color: #3f729b;
+}
+li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+.cases .devices > li {
+	width: 33.3333333%;
+	float: left;
+}
+ol, ul {
+	list-style: none;
+}
+div {
+	border: 0px solid chocolate;
 }
